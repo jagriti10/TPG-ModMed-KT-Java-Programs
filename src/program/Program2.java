@@ -6,6 +6,7 @@ package program;
 public class Program2 {
     public static void main(String[] args) {
         String s1="a2b3c5d1e2f3";
+        //String s1="a2";
         char ch[] = s1.toCharArray();
         for (int i = 0; i < ch.length;) {
             if ((ch[i] >= 65) && (ch[i] <= 90)) {
